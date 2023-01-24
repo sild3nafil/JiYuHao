@@ -1,0 +1,109 @@
+@keyframes changecr {
+    from {background-color: rgb(215, 215, 215);
+        color: rgb(61, 61, 61) ;}
+    to {background-color: rgb(176, 174, 164);
+        color: rgb(255, 255, 255);}
+}
+
+body{
+    background-color: rgb(200, 200, 200);
+
+    font-family: "MS Sans Serif", sans-serif;
+    letter-spacing: 2px;
+}
+
+.avator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5%;
+    height: auto;
+    max-width: 150px;
+
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+    text-align: center;
+  
+    padding: 30px;
+    font-size: 28px;
+}
+  
+.bio {
+    color: rgb(61, 61, 61) ;
+    text-align: center;
+  
+    padding: 0px;
+    font-size: 20px;
+
+    position: relative;
+    top: -20px;
+}
+
+.title {
+    text-align: center;
+  
+    padding: 30px;
+    font-size: 22px;
+}
+
+.links {
+    position: relative;
+    top: -20px;
+
+    text-align: center;
+    margin-top: 20px;
+    
+    border-width: 2px;
+    padding: 20px;
+  
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 10px;
+  
+    font-size: 16px;
+  }
+.icon {    
+    text-align: center;
+}
+.icon_links {
+    display: inline-block;
+    background-color: none;
+    color: rgb(61, 61, 61) ;
+    
+    padding: 5px;
+
+    text-decoration: none;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    font-size: 26px;
+}
+
+.link1 {
+    text-decoration: none;
+  
+    background-color: rgb(215, 215, 215);
+    color: rgb(61, 61, 61) ;
+    transition: color 1s;
+}
+.link1:hover {
+    animation-name: changecr;
+    animation-duration: 1s;
+
+    background-color: rgb(176, 174, 164);
+    color: rgb(255, 255, 255);
+}
+.buttom {
+    text-align: center;
+    color: rgb(102, 102, 102) ;
+    font-size: 10px;
+    padding: 10px;
+}
